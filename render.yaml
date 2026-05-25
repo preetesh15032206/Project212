@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: envirocast-dashboard
+    env: docker
+    region: oregon
+    plan: free
+    branch: main
+    dockerContext: .
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 3000

@@ -1,0 +1,8 @@
+{
+  "name": "Environmental Pipeline Dashboard",
+  "description": "A modern React dashboard for displaying ML evaluation metrics, model runs, and weather predictions from the environmental data pipeline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
